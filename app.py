@@ -16,6 +16,15 @@ def create_app():
     return app
 
 
+class Item(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(100), nullable=False)
+    description = db.Column(db.String(300), nullable=False)
+    price = db.Column()
+    isActive = db.Column()
+    category = db.Column()
+
+
 @app.route('/')
 def index():
     return render_template('index.html')
