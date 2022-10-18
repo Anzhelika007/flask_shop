@@ -21,12 +21,11 @@ class Item(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(100), nullable=False)
     price = db.Column(db.Integer, nullable=False)
+    text = db.Column(db.Text, nullable=False)
     isActive = db.Column(db.Boolean, nullable=True)
 
     def __repr__(self):
         return self.title
-
-
 
 
 @app.route('/')
@@ -45,9 +44,10 @@ def about():
 def create():
     if request.method == 'POST':
         title = request.form['title']
+        text = request.form['text']
         price = request.form['price']
 
-        item = Item(title=title, price=price)
+        item = Item(title=title, text=text, price=price)
 
         try:
             db.session.add(item)

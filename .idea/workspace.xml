@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44adbf83-812b-4814-a9b0-93c8e1504539" name="Changes" comment="add row table">
+    <list default="true" id="44adbf83-812b-4814-a9b0-93c8e1504539" name="Changes" comment="template optimization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/create.html" afterDir="false" />
@@ -27,6 +27,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2GJYA1ry0XEO3KQmU60bxOML0gb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -88,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666115366012</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="template optimization">
+      <created>1666122979930</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666122979930</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add files html and base alchemy" />
     <MESSAGE value="add row table" />
-    <option name="LAST_COMMIT_MESSAGE" value="add row table" />
+    <MESSAGE value="template optimization" />
+    <option name="LAST_COMMIT_MESSAGE" value="template optimization" />
   </component>
 </project>
