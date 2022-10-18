@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44adbf83-812b-4814-a9b0-93c8e1504539" name="Changes" comment="add files html and base alchemy">
+    <list default="true" id="44adbf83-812b-4814-a9b0-93c8e1504539" name="Changes" comment="add row table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666112746744</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add row table">
+      <created>1666115366012</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666115366012</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,6 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add files html and base alchemy" />
-    <option name="LAST_COMMIT_MESSAGE" value="add files html and base alchemy" />
+    <MESSAGE value="add row table" />
+    <option name="LAST_COMMIT_MESSAGE" value="add row table" />
   </component>
 </project>
