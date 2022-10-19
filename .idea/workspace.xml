@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44adbf83-812b-4814-a9b0-93c8e1504539" name="Changes" comment="template optimization">
+    <list default="true" id="44adbf83-812b-4814-a9b0-93c8e1504539" name="Changes" comment="template optimization card">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666122979930</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="template optimization card">
+      <created>1666127825606</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666127825606</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +121,7 @@
     <MESSAGE value="add files html and base alchemy" />
     <MESSAGE value="add row table" />
     <MESSAGE value="template optimization" />
-    <option name="LAST_COMMIT_MESSAGE" value="template optimization" />
+    <MESSAGE value="template optimization card" />
+    <option name="LAST_COMMIT_MESSAGE" value="template optimization card" />
   </component>
 </project>
