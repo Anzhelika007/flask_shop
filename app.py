@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 import os
+from cloudipsp import Api, Checkout
 
 
 app = Flask(__name__)
@@ -39,6 +40,20 @@ def index():
 def about():
     return render_template('about.html')
 
+
+@app.route('/buy/<int:id>')
+def item_buy(id):
+    item = Item.query.get(id)
+
+    api = Api(merchant_id=1396424,  # id - выдают при регистрации КОМПАНИИ на сайте компании, предоставляющ эту услугу
+              secret_key='test')
+    checkout = Checkout(api=api)
+    data = {
+        "currency": "BYN",
+        "amount": str(item.price) + '00'
+    }
+    url = checkout.url(data).get('checkout_url')
+    return redirect(url)
 
 @app.route('/create', methods=['POST', 'GET'])
 def create():
